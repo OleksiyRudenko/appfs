@@ -14,7 +14,7 @@
 If both supported then `fe` should be specified first, i.e. full folder 
 prefix will be `febe`.
 
-**Pattern - root:*
+**Pattern - root:**
 
 Gives hint on the structuring pattern:
  * `mvc` - grouping code by responsibility: models, views, contollers, services,
@@ -51,7 +51,7 @@ E.g. `angular-app` means structure is fetched from angular-app project.
 
 **Example**
 
-`fe-fea--(2014-8-18--2016-04-11)--angular1Material`:
+`fe--fea--(2014-8-18--2016-04-11)--angular1Material`:
 
  * front-end only, 
  * feature pattern, 
@@ -68,8 +68,10 @@ E.g. `angular-app` means structure is fetched from angular-app project.
 
 Project root folder must contain `APPFS.md` describing source in more details. 
 
-Each sub-folder contained may also contain explaining `APPFS.md`.
-`README.md` isn't used for that purpose to avoid mix up with project description.
+`APPFS-tree.md` may contain complete or partial folder structure.
+
+Each sub-folder may also contain explaining `APPFS.md` and/or `APPFS-tree.md`.
+
 
 ### Files
 
