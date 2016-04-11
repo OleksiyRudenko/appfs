@@ -78,6 +78,8 @@ Each sub-folder may also contain explaining `APPFS.md` and/or `APPFS-tree.md`.
 Folders may contain also files or file stubs. These are either minimally required for project
 and/or back some filenaming conventions.
 
+* * *
+
 ## Bonus
 
 ### Project files templates
