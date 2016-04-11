@@ -24,9 +24,10 @@ Gives hint on the structuring pattern:
     views, controllers etc.
  * `mix` - where both approaches employed. Please, note that services that are most 
    likely to be bound to data source rather than to a particular controller or view
-   may reside in services/ or data/, for e.g. This is not considered a mix since
+   may reside in `services/` or `data/`, for e.g. This situation is not considered 
+   to be a mix since
    such services are features themselves, which are just grouped by their nature
-   and possibly too small to serve personal folders.
+   and possibly too small to deserve personal folders.
 
 **dateLastUpdate**
 
