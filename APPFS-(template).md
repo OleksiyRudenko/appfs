@@ -1,7 +1,7 @@
-[2016-04-12] latest update
+[2016-MM-DD] latest update
 
-[2016-04-12] latest check
+[2016-MM-DD] latest check
 
-Source: [AngularJS, Angular Material, SASS, UI-Router](https://github.com/row1/brunch-materialistic-arrogantular)[2015-09-06]
+Source: [name](url)[YYYY-MM-DD]
 
 Check [APPFS-tree.md](./APPFS-tree.md) for project folder structure.
