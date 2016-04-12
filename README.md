@@ -7,6 +7,7 @@
 ## Table of contents
 
  1. [Naming Conventions](#naming-conventions)
+    * [Example](#example)
  1. [Contents Conventions](#contents-conventions)
     * [Files](#files)
     * [Structure explanation](#structure-explanation)
@@ -62,7 +63,9 @@ and date the structure has been 'stolen' on.
 
 E.g. `angular-app` means structure is fetched from angular-app project.
 
-**Example**
+**[Back to top](#table-of-contents)**
+
+### Example
 
 `fe--fea--(2014-8-18--2016-04-11)--angular1Material`:
 
@@ -74,6 +77,7 @@ E.g. `angular-app` means structure is fetched from angular-app project.
  
  More details on source project can be found in APPFS.md in that folder.
 
+**[Back to top](#table-of-contents)**
 
 ## Contents Conventions
 
@@ -81,6 +85,8 @@ E.g. `angular-app` means structure is fetched from angular-app project.
 
 Folders may contain also files or file stubs. These are either minimally required for project
 and/or back some filenaming conventions.
+
+**[Back to top](#table-of-contents)**
 
 ### Structure explanation
 
@@ -94,9 +100,13 @@ Any sub-folder may also contain explaining `APPFS.md` and/or `APPFS-tree.md`.
 If so, then it is reasonable to have relevant references in parent folder's
 `APPFS.md` and/or `APPFS-tree.md`.
 
+**[Back to top](#table-of-contents)**
+
 #### Templates
 
 Use `APPFS-template.md` as a template for `APPFS.md`.
+
+**[Back to top](#table-of-contents)**
 
 #### Helper tools
 
@@ -107,6 +117,8 @@ Usage: `mktree.bat` `"target-folder-path"` -- quote folder name! It's Windows!
 NB! `mktree.bat` generates complete structure.
 There is no option to limit depth of scan.
 The result requires minor fixes (excessive lines removal).
+
+**[Back to top](#table-of-contents)**
 
 * * *
 
@@ -119,3 +131,5 @@ The result requires minor fixes (excessive lines removal).
 [README: general application](https://github.com/stephzilla/readme)
 
 [README; MIT LICENCE; CHANGELOG](https://github.com/kud/README-template)
+
+**[Back to top](#table-of-contents)**
