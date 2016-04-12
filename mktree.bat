@@ -13,7 +13,7 @@ if %_argcActual% NEQ %_argcExpected% (
 echo ``` > "%1"\APPFS-tree.md
 echo Project-Root-Folder >> "%1"\APPFS-tree.md
 tree /A /f "%1" >> "%1"\APPFS-tree.md
-echo ``` >> "%1"\tree.md
+echo ``` >> "%1"\APPFS-tree.md
 
 goto:_EOF
 :_ShowUsage
