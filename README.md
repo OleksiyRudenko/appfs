@@ -4,6 +4,16 @@
 
 # APPFS = Application Project Perfect Folder Structure
 
+## Table of contents
+
+ 1. [Naming Conventions](#naming-conventions)
+ 1. [Contents Conventions](#contents-conventions)
+    * [Files](#files)
+    * [Structure explanation](#structure-explanation)
+    * [Templates](#templates)
+    * [Helper tools](#helper-tools)
+ 1. [Bonus](#bonus)
+
 ## Naming Conventions
 
 1st level folder name template: `{architecture}[-pattern][--([dateLastUpdate][--dateCheckedOn])][--source]`
@@ -65,7 +75,12 @@ E.g. `angular-app` means structure is fetched from angular-app project.
  More details on source project can be found in APPFS.md in that folder.
 
 
-## Contents conventions
+## Contents Conventions
+
+### Files
+
+Folders may contain also files or file stubs. These are either minimally required for project
+and/or back some filenaming conventions.
 
 ### Structure explanation
 
@@ -79,7 +94,11 @@ Any sub-folder may also contain explaining `APPFS.md` and/or `APPFS-tree.md`.
 If so, then it is reasonable to have relevant references in parent folder's
 `APPFS.md` and/or `APPFS-tree.md`.
 
+#### Templates
+
 Use `APPFS-template.md` as a template for `APPFS.md`.
+
+#### Helper tools
 
 Use `mktree.bat` to generate `APPFS-tree.md` under Windows.
 
@@ -88,12 +107,6 @@ Usage: `mktree.bat` `"target-folder-path"` -- quote folder name! It's Windows!
 NB! `mktree.bat` generates complete structure.
 There is no option to limit depth of scan.
 The result requires minor fixes (excessive lines removal).
-
-
-### Files
-
-Folders may contain also files or file stubs. These are either minimally required for project
-and/or back some filenaming conventions.
 
 * * *
 
