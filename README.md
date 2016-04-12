@@ -71,7 +71,7 @@ E.g. `angular-app` means structure is fetched from angular-app project.
 
 ### Example
 
-`fe--fea--(2014-8-18--2016-04-11)--angular1Material`:
+`fe--fea--(2014-08-18--2016-04-11)--angular1Material`:
 
  * front-end only, 
  * feature pattern, 
