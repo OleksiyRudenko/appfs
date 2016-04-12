@@ -67,11 +67,25 @@ E.g. `angular-app` means structure is fetched from angular-app project.
 
 ### Structure explanation
 
-Project root folder must contain `APPFS.md` describing source in more details. 
+Project root folder must contain `APPFS.md` describing source in more details.
 
-`APPFS-tree.md` may contain complete or partial folder structure.
+It may contain folder structure or alternatively refer to
+`APPFS-tree.md`, which must contain complete or partial folder structure.
+If structure reflected is partial then relevant notice required.
 
-Each sub-folder may also contain explaining `APPFS.md` and/or `APPFS-tree.md`.
+Any sub-folder may also contain explaining `APPFS.md` and/or `APPFS-tree.md`.
+If so, then it is reasonable to have relevant references in parent folder's
+`APPFS.md` and/or `APPFS-tree.md`.
+
+Use `APPFS-template.md` as a template for `APPFS.md`.
+
+Use `mktree.bat` to generate `APPFS-tree.md` under Windows.
+
+Usage: `mktree.bat` `"target-folder-path"` -- quote folder name! It's Windows!
+
+NB! `mktree.bat` generates complete structure.
+There is no option to limit depth of scan.
+The result requires minor fixes (excessive lines removal).
 
 
 ### Files
