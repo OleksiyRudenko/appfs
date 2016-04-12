@@ -76,9 +76,9 @@ E.g. `angular-app` means structure is fetched from angular-app project.
  * feature pattern, 
  * source last updated on August 18, 2014
  * latest check/fetch on April 11, 2016
- * sourced from angular-material project.
+ * sourced from angular-material project
  
- More details on source project can be found in APPFS.md in that folder.
+More details on source project can be found in APPFS.md in that folder.
 
 **[Back to top](#table-of-contents)**
 
