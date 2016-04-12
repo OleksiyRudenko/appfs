@@ -7,6 +7,7 @@
 ## Table of contents
 
  1. [Naming Conventions](#naming-conventions)
+    * [Stencil](#stencil)
     * [Example](#example)
  1. [Contents Conventions](#contents-conventions)
     * [Files](#files)
@@ -16,6 +17,8 @@
  1. [Bonus](#bonus)
 
 ## Naming Conventions
+
+### Stencil
 
 1st level folder name template: `{architecture}[-pattern][--([dateLastUpdate][--dateCheckedOn])][--source]`
 
