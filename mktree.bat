@@ -10,6 +10,7 @@ if %_argcActual% NEQ %_argcExpected% (
   goto:_EOF
 )
 
+echo Please, remove tree command output headers and footers and this line as well!
 echo ``` > "%1"\APPFS-tree.md
 echo Project-Root-Folder >> "%1"\APPFS-tree.md
 tree /A /f "%1" >> "%1"\APPFS-tree.md
