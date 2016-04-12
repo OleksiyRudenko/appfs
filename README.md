@@ -20,9 +20,11 @@
 
 ### Stencil
 
-1st level folder name template: `{architecture}[-pattern][--([dateLastUpdate][--dateCheckedOn])][--source]`
+1st level folder name template:
 
-**Architecture - prefixes:**
+`{architecture}[--pattern][--([dateLastUpdate][--dateCheckedOn])][--source]`
+
+**Architecture**
 
  * `fe` - front-end (client)
  * `be` - back-end (server)
@@ -30,7 +32,7 @@
 If both supported then `fe` should be specified first, i.e. full folder 
 prefix will be `febe`.
 
-**Pattern - root:**
+**Pattern**
 
 Gives hint on the structuring pattern:
  * `mvc` - grouping code by responsibility: models, views, contollers, services,
@@ -47,9 +49,8 @@ Gives hint on the structuring pattern:
 
 **dateLastUpdate**
 
-Date the source was updated last time (as of check date)
+Date the source was updated last time (as of check date).
 
-project on April 11, 2016.
 `(2014-08-18)` means that structure in the project was changed no later
 than on August 18, 2014.
 
@@ -59,7 +60,7 @@ Date the source was fetched and/or checked.
 
 `(--2016-04-11)` means that structure was fetched or last time checked on April 11, 2016.
 
-**Source - suffix:**
+**Source**
 
 Denotes briefly source project of structure, may contain hints on frameworks used 
 and date the structure has been 'stolen' on.
