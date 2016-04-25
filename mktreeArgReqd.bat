@@ -19,7 +19,6 @@ echo ``` >> "%1"\APPFS-tree.md
 goto:_EOF
 :_ShowUsage
   echo [USAGE]: %~1 "target-folder-path"
-  echo If argument ommitted then "." (current folder) used
   echo ! Please quote target-folder-path if contains spaces
   echo.
   if NOT "%~2" == "" (
