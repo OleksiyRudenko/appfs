@@ -10,13 +10,14 @@ if %_argcActual% NEQ %_argcExpected% (
   goto:_EOF
 )
 
-echo Please, remove tree command output headers and footers and this line as well! > "%1"\APPFS-tree.md
-echo ``` >> "%1"\APPFS-tree.md
-echo Project-Root-Folder >> "%1"\APPFS-tree.md
-tree /A /f "%1" >> "%1"\APPFS-tree.md
-echo ``` >> "%1"\APPFS-tree.md
-
+echo Please, remove tree command output headers and footers and this line as well! > "%1\APPFS-tree.md"
+echo ``` >> "%1\APPFS-tree.md"
+echo Project-Root-Folder >> "%1\APPFS-tree.md"
+tree /A /f "%1" >> "%1\APPFS-tree.md"
+echo ``` >> "%1\APPFS-tree.md"
+echo Please, check %1\APPFS-tree.md for result.
 goto:_EOF
+
 :_ShowUsage
   echo [USAGE]: %~1 "target-folder-path"
   echo ! Please quote target-folder-path if contains spaces
@@ -30,5 +31,5 @@ goto:_EOF
 :_EOF
 echo The exit status is %_exitStatus%.
 echo.
-echo Please, check %1\APPFS-tree.md for result.
+pause
 cmd /c exit %_exitStatus%
