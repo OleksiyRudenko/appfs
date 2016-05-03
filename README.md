@@ -4,6 +4,12 @@
 
 # APPFS = Application Project Perfect Folder Structure
 
+Please, read [structure.md](./structure.md) to get into reasearch and
+ findings.
+
+This document describes how to **collect** and **organize** best practices and
+ samples.
+
 ## Table of contents
 
  1. [Naming Conventions](#naming-conventions)
